@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Slot Machine Game</h1>
+        <div id="slot-machine">
+            <!-- Placeholder for slot reels -->
+            <div class="slot-reel">🍒</div>
+            <div class="slot-reel">🍋</div>
+            <div class="slot-reel">🍉</div>
+        </div>
+        <div id="controls">
+            <label for="bet-amount">Bet Amount:</label>
+            <input type="number" id="bet-amount" min="1" value="10">
+            <button id="spin-button">Spin</button>
+        </div>
+        <div id="progress-bar-container">
+            <p>Progress Bar:</p>
+            <div id="progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
